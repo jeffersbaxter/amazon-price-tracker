@@ -6,7 +6,7 @@ from utils import remove_non_ints
 response = make_request()
 
 price_str = get_price(response.text)
-MAX_PRICE = 170.00
+MAX_PRICE = 150.00
 price = 0
 try:
     price = float(price_str)
